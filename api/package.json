@@ -1,7 +1,0 @@
-{
-  "name": "keyword-trends-api",
-  "type": "module",
-  "dependencies": {
-    "google-trends-api": "^4.9.0"
-  }
-}
