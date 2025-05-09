@@ -5,7 +5,7 @@ document.getElementById("getKeywords").addEventListener("click", () => {
       function: extractTextFromPage
     }, async (injectionResults) => {
       const pageText = injectionResults[0].result;
-      const response = await fetch("https://DEIN-BACKEND-URL/api/keywords", {
+      const response = await fetch("https://chrome-extension-keywords-aus-trend-viviennes-projects-c1374dbd.vercel.app", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ text: pageText })
